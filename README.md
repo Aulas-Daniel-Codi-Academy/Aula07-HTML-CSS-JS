@@ -31,3 +31,38 @@ O projeto é composto por **três arquivos principais**:
 ```sh
 git clone https://github.com/seu-usuario/simulador-caixa-eletronico.git
 ```
+
+2. **Abra o arquivo `index.html` em um navegador**
+   - Basta clicar duas vezes no arquivo **ou** abrir no VS Code e usar a extensão Live Server.
+
+---
+
+## 🎮 Como Usar?
+
+1. Digite um valor no campo.
+2. Clique em **"Depositar"** para adicionar dinheiro.
+3. Clique em **"Sacar"** para retirar dinheiro.
+4. O saldo será atualizado automaticamente.
+5. O **histórico de transações** mostrará os depósitos e saques.
+
+---
+
+## 🎨 Captura de Tela
+
+![Caixa Eletrônico Preview](screenshot.png)
+
+---
+
+## 📌 Melhorias Futuras
+
+🔹 Adicionar **limite de saque diário**  
+🔹 Implementar **autenticação simples com senha**  
+🔹 Criar um **modo dark**
+
+---
+
+## 🤝 Contribuição
+
+Se quiser sugerir melhorias ou encontrar algum bug, fique à vontade para abrir uma **Issue** ou enviar um **Pull Request**!
+
+---
