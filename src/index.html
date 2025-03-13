@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caixa Eletrônico</title>
+    <link rel="icon" type="image/png" href="../public/logo.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="atm-container">
+    <div class="caixa-container">
       <h1>💰 Caixa Eletrônico</h1>
-      <p>Saldo Atual: <span id="balance">R$ 0,00</span></p>
+      <p>Saldo Atual: <span id="saldo">R$ 0,00</span></p>
 
-      <input type="number" id="amount" placeholder="Digite o valor" />
-      <button onclick="deposit()">💵 Depositar</button>
-      <button onclick="withdraw()">🏧 Sacar</button>
+      <input type="number" id="valor" placeholder="Digite o valor" />
+      <button onclick="depositar()">💵 Depositar</button>
+      <button onclick="sacar()">🏧 Sacar</button>
 
       <h2>📜 Histórico de Transações</h2>
-      <ul id="transaction-history"></ul>
+      <ul id="historico-transacoes"></ul>
     </div>
 
     <script src="script.js"></script>

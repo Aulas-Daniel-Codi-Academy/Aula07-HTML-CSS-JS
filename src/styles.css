@@ -6,7 +6,7 @@ body {
   padding: 20px;
 }
 
-.atm-container {
+.caixa-container {
   max-width: 400px;
   margin: auto;
   background: white;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-  background: #219150;
+  background: #218838;
 }
 
 ul {
@@ -58,4 +58,5 @@ ul li {
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
+  font-size: 14px;
 }
